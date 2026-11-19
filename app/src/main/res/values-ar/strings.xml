@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">ثيم ستوديو برو</string>
+    <string name="themepark_pilot_label">مساعد ثيم بارك الذكي</string>
+
+    <!-- Navigation -->
+    <string name="nav_icon_packs">حزم الأيقونات</string>
+    <string name="nav_editor">المحرر</string>
+    <string name="nav_coverage">التغطية</string>
+    <string name="nav_export">التصدير والتطبيق</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Icon Packs Screen -->
+    <string name="installed_icon_packs">حزم الأيقونات المثبتة</string>
+    <string name="no_packs_found">لم يتم العثور على حزم أيقونات خارجية</string>
+    <string name="get_icon_packs">تحميل حزم أيقونات من متجر Play</string>
+    <string name="reread_packs">إعادة الفحص</string>
+    <string name="pack_count">%1$d حزمة متاحة</string>
+    <string name="coverage_pct">نسبة التغطية %1$d%%</string>
+    <string name="use_this_pack">استخدام هذه الحزمة</string>
+    <string name="pack_active">الحزمة الحالية</string>
+
+    <!-- Coverage Screen -->
+    <string name="coverage_audit">تدقيق تغطية الأيقونات</string>
+    <string name="coverage_subtitle">تغطية مضمونة 100% لكافة التطبيقات المثبتة</string>
+    <string name="stat_from_pack">من الحزمة</string>
+    <string name="stat_secondary">الحزم الإضافية</string>
+    <string name="stat_fuzzy">مطابقة تقريبية</string>
+    <string name="stat_fallback">أيقونات بديلة مدمجة</string>
+    <string name="stat_overridden">مخصصة</string>
+    <string name="fix_all_guessed">تأكيد الأيقونات التقريبية</string>
+    <string name="search_apps">بحث في التطبيقات…</string>
+
+    <!-- Editor -->
+    <string name="tab_shape">الشكل</string>
+    <string name="tab_colours">الألوان</string>
+    <string name="tab_size">الحجم والتخطيط</string>
+    <string name="shape_square">مربع</string>
+    <string name="shape_rounded">مستدير الزوايا</string>
+    <string name="shape_circle">دائري</string>
+    <string name="shape_squircle">سكويركل (مربع ناعم)</string>
+    <string name="shape_teardrop">دمعة</string>
+    <string name="corner_radius">نصف قطر الزاوية: %1$d%%</string>
+    <string name="squircle_n">معامل الانحناء: %1$.1f</string>
+    <string name="reshape_pack_icons">إعادة تشكيل أيقونات الحزمة الأصلية</string>
+
+    <!-- Color Adjustments -->
+    <string name="color_mode_original">ألوان التطبيق الأصلية</string>
+    <string name="color_mode_pack">ألوان الحزمة</string>
+    <string name="color_mode_tint">تلوين أحادي / ثنائي</string>
+    <string name="color_mode_monochrome">أبيض وأسود / لون موحد</string>
+    <string name="color_mode_palette">لوحة ألوان ديناميكية</string>
+    <string name="slider_hue">تدرج اللون (Hue)</string>
+    <string name="slider_sat">التشبع (Saturation)</string>
+    <string name="slider_bri">السطوع (Brightness)</string>
+    <string name="slider_con">التباين (Contrast)</string>
+    <string name="slider_opacity">الشفافية (Opacity)</string>
+    <string name="slider_scale">المقياس (Scale)</string>
+    <string name="slider_padding">الهامش الداخلي (Padding)</string>
+    <string name="reset_adjustments">إعادة ضبط</string>
+    <string name="compare_original">اضغط للمقارنة بالأصل</string>
+
+    <!-- Export & Apply -->
+    <string name="export_theme_park">تصدير لتطبيق Samsung Theme Park</string>
+    <string name="create_icon_pack_apk">بناء حزمة APK وتثبيتها</string>
+    <string name="export_png_zip">تصدير كافة الأيقونات كملف مضغوط (ZIP)</string>
+    <string name="apply_theme_park_ai">تطبيق تلقائي عبر مساعد Theme Park</string>
+    <string name="plate_inside_plate_warning">تنبيه: تأكد من ضبط نمط الأيقونات في Theme Park على الافتراضي (Default) لتجنب الإطارات المزدوجة.</string>
+</resources>

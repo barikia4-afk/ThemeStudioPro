@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Theme Studio Pro</string>
+    <string name="themepark_pilot_label">Theme Studio Theme Park Pilot</string>
+
+    <!-- Navigation -->
+    <string name="nav_icon_packs">Icon Packs</string>
+    <string name="nav_editor">Editor</string>
+    <string name="nav_coverage">Coverage</string>
+    <string name="nav_export">Export &amp; Apply</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Icon Packs Screen -->
+    <string name="installed_icon_packs">Installed Icon Packs</string>
+    <string name="no_packs_found">No external icon packs discovered</string>
+    <string name="get_icon_packs">Get Icon Packs from Play Store</string>
+    <string name="reread_packs">Re-scan</string>
+    <string name="pack_count">%1$d icon packs available</string>
+    <string name="coverage_pct">%1$d%% Coverage</string>
+    <string name="use_this_pack">Use This Pack</string>
+    <string name="pack_active">Active Pack</string>
+
+    <!-- Coverage Screen -->
+    <string name="coverage_audit">Icon Coverage Audit</string>
+    <string name="coverage_subtitle">Guaranteed 100% coverage across all installed apps</string>
+    <string name="stat_from_pack">From Pack</string>
+    <string name="stat_secondary">Secondary</string>
+    <string name="stat_fuzzy">Fuzzy Match</string>
+    <string name="stat_fallback">Fallback</string>
+    <string name="stat_overridden">Custom</string>
+    <string name="fix_all_guessed">Confirm Guessed Icons</string>
+    <string name="search_apps">Search apps…</string>
+
+    <!-- Editor -->
+    <string name="tab_shape">Shape</string>
+    <string name="tab_colours">Colours</string>
+    <string name="tab_size">Size &amp; Layout</string>
+    <string name="shape_square">Square</string>
+    <string name="shape_rounded">Rounded</string>
+    <string name="shape_circle">Circle</string>
+    <string name="shape_squircle">Squircle</string>
+    <string name="shape_teardrop">Teardrop</string>
+    <string name="corner_radius">Corner Radius: %1$d%%</string>
+    <string name="squircle_n">Curve Exponent: %1$.1f</string>
+    <string name="reshape_pack_icons">Reshape Original Pack Icons</string>
+
+    <!-- Color Adjustments -->
+    <string name="color_mode_original">Original App Colours</string>
+    <string name="color_mode_pack">Pack Colours</string>
+    <string name="color_mode_tint">Tint / Duotone</string>
+    <string name="color_mode_monochrome">Monochrome</string>
+    <string name="color_mode_palette">Dynamic Palette</string>
+    <string name="slider_hue">Hue</string>
+    <string name="slider_sat">Saturation</string>
+    <string name="slider_bri">Brightness</string>
+    <string name="slider_con">Contrast</string>
+    <string name="slider_opacity">Opacity</string>
+    <string name="slider_scale">Scale</string>
+    <string name="slider_padding">Padding</string>
+    <string name="reset_adjustments">Reset</string>
+    <string name="compare_original">Hold to Compare</string>
+
+    <!-- Export & Apply -->
+    <string name="export_theme_park">Export for Samsung Theme Park</string>
+    <string name="create_icon_pack_apk">Build Icon Pack APK</string>
+    <string name="export_png_zip">Export All Icons as PNG (ZIP)</string>
+    <string name="apply_theme_park_ai">Apply via Theme Park Pilot (Auto)</string>
+    <string name="plate_inside_plate_warning">Ensure Theme Park icon style is set to Default before applying to prevent double borders.</string>
+</resources>
