@@ -23,12 +23,11 @@ jobs:
           java-version: '17'
           cache: 'gradle'
 
-      - name: Install Android SDK (v2)
+      # Corrected SDK installation – using setup-android@v2 which accepts package list
+      - name: Install Android SDK
         uses: android-actions/setup-android@v2
         with:
-          api-level: 33
-          ndk: "25.2.9519653"
-          build-tools: "33.0.2"
+          packages: 'platforms;android-35 ndk;25.2.9519653 build-tools;35.0.0 platform-tools'
           cache: true
           accept-android-sdk-licenses: true
 
