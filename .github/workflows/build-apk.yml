@@ -23,14 +23,14 @@ jobs:
           java-version: '17'
           cache: 'gradle'
 
-      - name: Install Android SDK
-        uses: android-actions/setup-android@v3
+      - name: Install Android SDK (v2)
+        uses: android-actions/setup-android@v2
         with:
           api-level: 33
           ndk: "25.2.9519653"
           build-tools: "33.0.2"
           cache: true
-          sdk-tools: true
+          accept-android-sdk-licenses: true
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
